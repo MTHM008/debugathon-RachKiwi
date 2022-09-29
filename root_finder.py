@@ -32,7 +32,7 @@ x_initial = 0.1
 
 # perform 10 iterations of Newton's method, printing out 
 for i in range(10):
-    x_od = x_new
+    x_odd = x_new
     X_new = x_old - f(x_old) / fprime(x_old)
 
 print(i, x_new, f(x_new))
